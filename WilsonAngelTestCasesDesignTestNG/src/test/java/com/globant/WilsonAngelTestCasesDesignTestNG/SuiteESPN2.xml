@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test suite ESP">	
+<listeners>
+		<listener class-name="com.globant.WilsonAngelTestCasesDesignTestNG.MyListener"></listener>
+	</listeners>
+	<test name="Test init Session">
+		<classes>
+ 			<class name="com.globant.WilsonAngelTestCasesDesignTestNG.InitSession"></class> 
+		</classes>		
+	</test>
+	<test name="Test Close Session">
+		<classes>
+ 			<class name="com.globant.WilsonAngelTestCasesDesignTestNG.CloseSession"></class> 
+		</classes>		
+	</test>
+	<test name="Test Disable User">
+		<classes>
+ 			<class name="com.globant.WilsonAngelTestCasesDesignTestNG.DisableUser"></class> 
+		</classes>		
+	</test>
+</suite>

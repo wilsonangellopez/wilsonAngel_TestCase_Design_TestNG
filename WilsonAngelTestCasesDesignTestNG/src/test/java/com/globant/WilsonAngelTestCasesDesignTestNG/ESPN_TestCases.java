@@ -1,7 +1,7 @@
 package com.globant.WilsonAngelTestCasesDesignTestNG;
 
 import org.testng.annotations.Test;
-import org.testng.log4testng.Logger;
+
 
 public class ESPN_TestCases {
 

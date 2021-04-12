@@ -6,7 +6,7 @@ import org.testng.ITestResult;
 
 public class MyListener implements ITestListener {
 
-	public void onTestStart(ITestResult result) {System.out.println("El test inicio");	}
+	public void onTestStart(ITestResult result) {System.out.println("El test inicio: " + result.getName());	}
 
 	public void onTestSuccess(ITestResult result) {System.out.println("El test paso");
 	}
@@ -15,13 +15,10 @@ public class MyListener implements ITestListener {
 
 	public void onTestSkipped(ITestResult result) {System.out.println("El test fue skypeado");	}
 
-	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {
-		// TODO Auto-generated method stub
-		
-	}
+	public void onTestFailedButWithinSuccessPercentage(ITestResult result) {}
 
-	public void onStart(ITestContext context) {System.out.println("Aqui empezo La suite");	}
+	public void onStart(ITestContext context) {System.out.println("Aqui empezo La suite: " + context.getName());	}
 
-	public void onFinish(ITestContext context) {System.out.println("Aqui finalizo La Suite");}
+	public void onFinish(ITestContext context) {System.out.println("Aqui finalizo La Suite: " + context.getName());}
 
 }

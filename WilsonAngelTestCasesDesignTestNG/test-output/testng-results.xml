@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="My test suite" duration-ms="33" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
+  <suite name="Test suite ESP" duration-ms="92" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
     <groups>
     </groups>
-    <test name="My first test" duration-ms="33" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
-      <class name="com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases">
-        <test-method status="PASS" signature="validAccount()[pri:1, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@51081592]" name="validAccount" duration-ms="8" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
+    <test name="Test init Session" duration-ms="29" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
+      <class name="com.globant.WilsonAngelTestCasesDesignTestNG.InitSession">
+        <test-method status="PASS" signature="validAccount()[pri:0, instance:com.globant.WilsonAngelTestCasesDesignTestNG.InitSession@7c16905e]" name="validAccount" is-config="true" duration-ms="10" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validAccount -->
-        <test-method status="PASS" signature="initSession()[pri:2, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@51081592]" name="initSession" duration-ms="1" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
+        <test-method status="PASS" signature="initSession()[pri:0, instance:com.globant.WilsonAngelTestCasesDesignTestNG.InitSession@7c16905e]" name="initSession" duration-ms="3" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initSession -->
-        <test-method status="PASS" signature="closeSession()[pri:3, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@51081592]" name="closeSession" duration-ms="1" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
+      </class> <!-- com.globant.WilsonAngelTestCasesDesignTestNG.InitSession -->
+    </test> <!-- Test init Session -->
+    <test name="Test Close Session" duration-ms="3" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
+      <class name="com.globant.WilsonAngelTestCasesDesignTestNG.CloseSession">
+        <test-method status="PASS" signature="validAccount()[pri:0, instance:com.globant.WilsonAngelTestCasesDesignTestNG.CloseSession@3ffc5af1]" name="validAccount" is-config="true" duration-ms="1" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAccount -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:com.globant.WilsonAngelTestCasesDesignTestNG.CloseSession@3ffc5af1]" name="closeSession" duration-ms="1" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-        <test-method status="PASS" signature="disableUser()[pri:4, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@51081592]" name="disableUser" duration-ms="1" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
+      </class> <!-- com.globant.WilsonAngelTestCasesDesignTestNG.CloseSession -->
+    </test> <!-- Test Close Session -->
+    <test name="Test Disable User" duration-ms="3" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
+      <class name="com.globant.WilsonAngelTestCasesDesignTestNG.DisableUser">
+        <test-method status="PASS" signature="validAccount()[pri:0, instance:com.globant.WilsonAngelTestCasesDesignTestNG.DisableUser@6f7fd0e6]" name="validAccount" is-config="true" duration-ms="0" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validAccount -->
+        <test-method status="PASS" signature="disableUser()[pri:0, instance:com.globant.WilsonAngelTestCasesDesignTestNG.DisableUser@6f7fd0e6]" name="disableUser" duration-ms="1" started-at="2021-04-12T20:51:35Z" finished-at="2021-04-12T20:51:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disableUser -->
-      </class> <!-- com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases -->
-    </test> <!-- My first test -->
-  </suite> <!-- My test suite -->
+      </class> <!-- com.globant.WilsonAngelTestCasesDesignTestNG.DisableUser -->
+    </test> <!-- Test Disable User -->
+  </suite> <!-- Test suite ESP -->
 </testng-results>
