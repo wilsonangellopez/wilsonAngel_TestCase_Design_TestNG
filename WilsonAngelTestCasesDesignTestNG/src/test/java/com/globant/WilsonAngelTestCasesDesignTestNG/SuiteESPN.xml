@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My test suite">	
+<listeners>
+		<listener class-name="com.globant.WilsonAngelTestCasesDesignTestNG.MyListener"></listener>
+	</listeners>
+	<test name="My first test">
+		<classes>
+ 			<class name="com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases"></class> 
+		</classes>
+	</test>
+</suite>

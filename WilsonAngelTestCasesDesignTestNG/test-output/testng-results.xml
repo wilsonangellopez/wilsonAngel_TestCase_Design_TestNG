@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="137" started-at="2021-04-12T19:17:24Z" finished-at="2021-04-12T19:17:24Z">
+  <suite name="My test suite" duration-ms="33" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="137" started-at="2021-04-12T19:17:24Z" finished-at="2021-04-12T19:17:24Z">
+    <test name="My first test" duration-ms="33" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
       <class name="com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases">
-        <test-method status="PASS" signature="validAccount()[pri:1, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@396a51ab]" name="validAccount" duration-ms="27" started-at="2021-04-12T19:17:24Z" finished-at="2021-04-12T19:17:24Z">
+        <test-method status="PASS" signature="validAccount()[pri:1, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@51081592]" name="validAccount" duration-ms="8" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validAccount -->
-        <test-method status="PASS" signature="initSession()[pri:2, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@396a51ab]" name="initSession" duration-ms="4" started-at="2021-04-12T19:17:24Z" finished-at="2021-04-12T19:17:24Z">
+        <test-method status="PASS" signature="initSession()[pri:2, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@51081592]" name="initSession" duration-ms="1" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initSession -->
-        <test-method status="PASS" signature="closeSession()[pri:3, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@396a51ab]" name="closeSession" duration-ms="4" started-at="2021-04-12T19:17:24Z" finished-at="2021-04-12T19:17:24Z">
+        <test-method status="PASS" signature="closeSession()[pri:3, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@51081592]" name="closeSession" duration-ms="1" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeSession -->
-        <test-method status="PASS" signature="disableUser()[pri:4, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@396a51ab]" name="disableUser" duration-ms="5" started-at="2021-04-12T19:17:24Z" finished-at="2021-04-12T19:17:24Z">
+        <test-method status="PASS" signature="disableUser()[pri:4, instance:com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases@51081592]" name="disableUser" duration-ms="1" started-at="2021-04-12T20:21:35Z" finished-at="2021-04-12T20:21:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- disableUser -->
       </class> <!-- com.globant.WilsonAngelTestCasesDesignTestNG.ESPN_TestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- My first test -->
+  </suite> <!-- My test suite -->
 </testng-results>
